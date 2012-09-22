@@ -14,8 +14,9 @@
 ##
 ##   cat /var/log/maillog | ./colorize-postfix-status.sed | less -R
 ##
-## References: http://d.hatena.ne.jp/y-kawaz/20110713/1310532417
-##             http://kokukuma.blogspot.jp/2011/12/tail.html
+## Original: http://d.hatena.ne.jp/y-kawaz/20110713/1310532417
+## 
+## Other References: http://kokukuma.blogspot.jp/2011/12/tail.html
 ##
 # 0  reset
 # 1  bold
