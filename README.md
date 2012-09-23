@@ -64,5 +64,5 @@ Colorize Logs
 
 	        $ cat /var/log/maillog | colorize-postfix-status.sed | less -R
 
-1. こんな感じでログがハイライトされますよと
+1. こんな感じでログがハイライトされますよと（ログのうち **status=xxxx** が表示される行だけ抜粋してます）
     ![Screen Shot](https://raw.github.com/mo-ya/colorize-logs/master/screen-shot01.png)
