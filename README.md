@@ -55,12 +55,10 @@ Colorize Logs
     - 例1: tail -f で流してるログに色付け
 
 	        $ tail -f /var/log/maillog | colorize-postfix-status.sed
-
     - 例2: less で結果を見る場合は本スクリプトで挿入したエスケープシーケンスを解釈できるよう -R 
 	  オプションをつけると良い感じです
 
 	        $ cat /var/log/maillog | colorize-postfix-status.sed | less -R
 
 1. こんな感じでログがハイライトされますよと (ログの一部だけ抜粋してます)
-
-![Screen Shot](screen-shot01.png)
+    ![Screen Shot](https://raw.github.com/mo-ya/colorize-logs/master/screen-shot01.png)
