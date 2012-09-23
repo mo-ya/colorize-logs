@@ -2,6 +2,10 @@
 ##
 ## Coloring STATUS of POSTFIX LOG
 ##
+## Copyright (C) 2012 Y.Morikawa <http://moya-notes.blogspot.jp/>
+##
+## License: MIT License  (See LICENSE.md)
+##
 ## Note: for DARK Background 
 ##
 ## Setup:
@@ -16,7 +20,8 @@
 ##
 ## Original: http://d.hatena.ne.jp/y-kawaz/20110713/1310532417
 ## 
-## Other References: http://kokukuma.blogspot.jp/2011/12/tail.html
+## Other References: http://d.hatena.ne.jp/keyesberry/20101107/p1
+##                   http://kokukuma.blogspot.jp/2011/12/tail.html
 ##
 # 0  reset
 # 1  bold
