@@ -28,7 +28,7 @@ Colorize Logs
 
 は結構大事なのかなーと思ってます。
 
-あ、それと完全に個人的趣味ですが *黒背景ターミナル* 前提のカラーリングですので、
+あ、それと完全に個人的趣味ですが **黒背景ターミナル** 前提のカラーリングですので、
 色が気に入らないなーといった場合にはスクリプトを直に書き換えちゃって頂ければ幸いです。
 （オプションで変えれるようにすることも考えましたが結局使わない気がしたので）。
 色とコードの対応については以下のサイトが参考になるかと。
@@ -40,6 +40,10 @@ Colorize Logs
 使い方
 ----------
 
+1. GitHub からソースを入手
+    - 例:
+
+            $ git clone git://github.com/mo-ya/colorize-logs.git
 1. スクリプトに実行権限を付与
     - 例: 
 
@@ -60,5 +64,5 @@ Colorize Logs
 
 	        $ cat /var/log/maillog | colorize-postfix-status.sed | less -R
 
-1. こんな感じでログがハイライトされますよと (ログの一部だけ抜粋してます)
+1. こんな感じでログがハイライトされますよと
     ![Screen Shot](https://raw.github.com/mo-ya/colorize-logs/master/screen-shot01.png)
