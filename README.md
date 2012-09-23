@@ -40,7 +40,7 @@ Colorize Logs
 使い方
 ----------
 
-1. GitHub からソースを入手
+1. GitHub からスクリプトを入手
     - 例:
 
             $ git clone git://github.com/mo-ya/colorize-logs.git
